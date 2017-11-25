@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comkimhyeockjin.github.ms_hw04_201502043_kimhyeockjin.MenuActivity">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="선택 메뉴"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/position"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="위치 권한"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickPositionBtn"/>
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="카메라 권한"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickCameraBtn"/>
+
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="달력 권한"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickCalendarBtn"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="로그인 화면"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickLoginBtn"/>
+
+</LinearLayout>
