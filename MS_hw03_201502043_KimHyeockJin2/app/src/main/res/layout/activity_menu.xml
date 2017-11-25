@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.ac.cnu.cse.ms_hw03_201502043_kimhyeockjin2.MenuActivity">
+
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="고객 관리"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:onClick="onClickBtn1"/>
+
+    <Button
+        android:id="@+id/sales"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="매출 관리"
+        android:layout_gravity="center"
+        android:onClick="onClickBtn2"/>
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="상품 관리"
+        android:layout_gravity="center"
+        android:onClick="onClickBtn3"/>
+
+</LinearLayout>
